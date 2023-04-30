@@ -16,6 +16,11 @@
 
 #pragma once
 
+
+#define RAW_USAGE_PAGE 0xFF60
+#define RAW_USAGE_ID 0x61
+#define CUSTOM_RAWHID
+
 /* key matrix size */
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 16
